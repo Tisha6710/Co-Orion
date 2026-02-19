@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f4f7fb;
+  color: #333;
+}
+
+.app-container {
+  width: 95%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* NAVBAR */
+.top-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #4a90e2, #6a5acd);
+  padding: 12px 20px;
+  border-radius: 0 0 12px 12px;
+  color: white;
+}
+
+.brand {
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  gap: 8px;
+}
+
+.nav-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-button {
+  background: rgba(255,255,255,0.15);
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background: rgba(255,255,255,0.3);
+}
+
+.chat-highlight {
+  background: white;
+  color: #4a90e2;
+  font-weight: 600;
+}
+
+/* HERO */
+.hero-section {
+  text-align: center;
+  padding: 25px 0;
+}
+
+.hero-section h1 {
+  color: #4a90e2;
+}
+
+/* SEARCH */
+.search-panel {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.filter-group {
+  display: flex;
+  gap: 10px;
+}
+
+.filter-group select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* USER CARDS */
+.user-feed {
+  margin-top: 20px;
+}
+
+.user-card {
+  display: flex;
+  gap: 20px;
+  padding: 18px;
+  background: white;
+  border-radius: 12px;
+  margin-bottom: 14px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.user-avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.skill-tags {
+  margin: 8px 0;
+}
+
+.skill {
+  background: #e8f0fe;
+  color: #1a73e8;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.primary-btn {
+  background: linear-gradient(135deg, #4a90e2, #6a5acd);
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
